@@ -4,5 +4,5 @@ metadata:
   annotations:
     cnrm.cloud.google.com/project-id: mabenoit-tenant-735
   labels:
-    test: mabenoit-tenant-735
+    owner: mabenoit-tenant-735
   name: mabenoit-tenant-735
