@@ -11,4 +11,4 @@ spec:
   bindings:
     - role: roles/iam.workloadIdentityUser
       members:
-        - member: serviceAccount:mabenoit-configcontroller.svc.id.goog[cnrm-system/cnrm-controller-manager-mabenoit-tenant-735]
+        - member: 'serviceAccount:mabenoit-configcontroller.svc.id.goog[cnrm-system/cnrm-controller-manager-mabenoit-tenant-735]'

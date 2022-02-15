@@ -3,9 +3,7 @@ kind: ConstraintTemplate
 metadata:
   name: gcpstoragelocationconstraintv1
   annotations:
-    description: Restricts the permitted `locations` for StorageBucket Config Connector
-      resources to the list of locations provided in the constraint. Bucket names
-      in the `exemptions` list are exempt.
+    description: Restricts the permitted `locations` for StorageBucket Config Connector resources to the list of locations provided in the constraint. Bucket names in the `exemptions` list are exempt.
 spec:
   crd:
     spec:

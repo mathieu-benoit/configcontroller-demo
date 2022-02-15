@@ -11,4 +11,4 @@ spec:
       - StorageBucket
   parameters:
     locations:
-      - us-east1
+    - us-east1
