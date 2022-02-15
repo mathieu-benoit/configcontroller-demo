@@ -15,6 +15,7 @@ jobs:
           gcloud components install kpt nomos --quiet
       - name: vet	
         run: |
+          ls 
           nomos vet --no-api-server-check --source-format unstructured
       #- name: hydration	
       #  run: |
