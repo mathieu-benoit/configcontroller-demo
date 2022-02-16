@@ -1,0 +1,13 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RepoSync
+metadata:
+  name: repo-sync
+  namespace: mabenoit-tenant-735
+spec:
+  sourceFormat: unstructured
+  git:
+   repo: https://github.com/mathieu-benoit/configcontroller-tenant-repo
+   revision: HEAD
+   branch: main
+   dir: "config-sync"
+   auth: none
